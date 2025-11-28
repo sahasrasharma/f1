@@ -1,0 +1,21 @@
+header{
+  height: 50px;
+  line-height: 50px;
+  background: dodgerblue;
+  color: white;
+}
+footer{
+  height: 30px;
+  line-height: 30px;
+  background: dodgerblue;
+  color: white;
+  font-size: 8pt;
+}
+section{
+  height: calc(100% - 80px);
+  overflow: auto;
+}
+header .logo{
+  font-size: 12pt;
+  font-weight: bold;
+}

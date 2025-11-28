@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 60%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-box {
+  padding: 10px;
+  margin: 8px 0;
+  background: #e7e7e7;
+  border-radius: 6px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+button:disabled {
+  background: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.page-number {
+  font-size: 18px;
+  margin-left: 15px;
+  font-weight: bold;
+}

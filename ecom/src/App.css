@@ -1,0 +1,49 @@
+.student-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.student-container.vertical {
+  flex-direction: column;
+}
+
+.student-container.horizontal {
+  flex-direction: row;
+}
+
+.student-card {
+  background: #f4f6fb;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  padding: 16px 20px;
+  min-width: 220px;
+  margin: 0 auto;
+}
+
+.student-field {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2d3748;
+}
+
+.label {
+  font-weight: bold;
+  color: #222c3c;
+  margin-right: 4px;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 768px) {
+  .student-container {
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+  }
+  .student-card {
+    width: 100%;
+    min-width: unset;
+    padding: 14px 10px;
+  }
+}
