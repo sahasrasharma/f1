@@ -1,1 +1,2 @@
 This project demonstrates Git version control.
+Feature update: added new notes
